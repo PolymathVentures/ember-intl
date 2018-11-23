@@ -33,7 +33,8 @@ const AbstractHelper = Helper.extend({
       }
 
       if (typeof value === 'undefined') {
-        throw new Error(`${this} helper requires value attribute.`);
+         return "";
+        //throw new Error(`${this} helper requires value attribute.`);
       }
     }
 
